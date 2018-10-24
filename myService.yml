@@ -1,2 +1,7 @@
 field1: value1
 field2: value2
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
